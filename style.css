@@ -1,0 +1,195 @@
+body{
+    font-family: 'Gotham', sans-serif; 
+    font-weight: 900 !important;
+    font-style: italic;
+}
+
+nav{
+    background-color: black;
+}
+
+#header{
+    background-color: #ffcd00;
+}
+
+
+h3, h4 {
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+p{
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+b{
+    font-weight: 900;
+}
+
+.main-big-price{
+    font-size: 110px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0;
+}
+
+#tarifas .main-big-price{
+    font-size: 95px;
+}
+
+#ofertas .main-big-price{
+    font-size: 50px;
+}
+
+.main-small-price-up{
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 900;
+    margin: 0px 0px -7px 0px;
+}
+
+#tarifas .main-small-price-up{
+    font-size: 50px;
+}
+
+#ofertas .main-small-price-up{
+    font-size: 29px;
+}
+
+#header .main-small-price-month{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 0;
+}
+
+#tarifas .main-small-price-month{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0 0 8px 0px;
+}
+
+#ofertas .main-small-price-month{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0 0 0px 0;
+}
+
+.prices-container{
+    height: 100px;
+}
+
+.prices{
+    color: #ED0084;
+}
+
+.final-price{
+    background-color: #ffcd00;
+}
+
+.final-price p {
+    font-weight: 700;
+}
+
+#tarifas .prices{
+    color: black;
+}
+
+
+#callnow-button{
+    font-weight: 500;
+    color: #FFF;
+    background-color: #ED0084;
+    border: 0;
+}
+
+
+form > div:nth-child(1) > p {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.1;
+}
+
+form > div:nth-child(1) > p > span {
+    font-size: 35px;
+
+}
+
+form > div:nth-child(2) > p {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 1.1;
+}
+
+form > div:nth-child(2) > p > span {
+    font-size: 45px;
+
+}
+
+input {
+    border: 0;
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+input[type="checkbox"] + label {
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#tarifas{
+    background-color: #F4F4F4;
+}
+
+#ofertas div.bg-pink p{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.bg-black{
+    color: white;
+}
+
+.bg-pink{
+    background-color: #ED0084;
+    color: white;
+}
+
+#tarifas .bg-pink{
+    min-height: 86px;
+}
+
+
+.tarifa{
+    cursor: pointer;
+}
+
+/* ANIMATIONS */ 
+
+.tarifa {
+    transition: all 0.3s ease-out;
+}
+
+.tarifa:hover{
+    transform: scale(1.02);
+}
+
+
+#callnow-button{
+    transition: all 0.3s ease-out;
+}
+
+#callnow-button:hover{
+    transform: scale(1.02);
+}
