@@ -1,3 +1,8 @@
+:root{
+    --yellow: #ffcd00;
+    --pink: #ED0084;
+}
+
 body{
     font-family: 'Gotham', sans-serif; 
     font-weight: 900 !important;
@@ -9,7 +14,7 @@ nav{
 }
 
 #header{
-    background-color: #ffcd00;
+    background-color: var(--yellow);
 }
 
 
@@ -88,11 +93,11 @@ b{
 }
 
 .prices{
-    color: #ED0084;
+    color: var(--pink);
 }
 
 .final-price{
-    background-color: #ffcd00;
+    background-color: var(--yellow);
 }
 
 .final-price p {
@@ -107,9 +112,18 @@ b{
 #callnow-button{
     font-weight: 500;
     color: #FFF;
-    background-color: #ED0084;
+    background-color: var(--pink);
     border: 0;
 }
+
+#iwantit-button{
+    font-weight: 500;
+    color: #FFF;
+    background-color: var(--pink);
+    border: 0;
+    font-style: italic;
+}
+
 
 
 form > div:nth-child(1) > p {
@@ -162,7 +176,7 @@ input[type="checkbox"] + label {
 }
 
 .bg-pink{
-    background-color: #ED0084;
+    background-color: var(--pink);
     color: white;
 }
 
@@ -173,6 +187,13 @@ input[type="checkbox"] + label {
 
 .tarifa{
     cursor: pointer;
+}
+
+
+#smart-tv-text{
+    font-size: 12px;
+    color: var(--yellow);
+    font-weight: 500;
 }
 
 /* ANIMATIONS */ 
@@ -191,5 +212,14 @@ input[type="checkbox"] + label {
 }
 
 #callnow-button:hover{
+    transform: scale(1.02);
+}
+
+
+#iwantit-button{
+    transition: all 0.3s ease-out;
+}
+
+#iwantit-button:hover{
     transform: scale(1.02);
 }
