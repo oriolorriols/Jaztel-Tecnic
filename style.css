@@ -108,7 +108,6 @@ b{
     color: black;
 }
 
-
 #callnow-button{
     font-weight: 500;
     color: #FFF;
@@ -123,8 +122,6 @@ b{
     border: 0;
     font-style: italic;
 }
-
-
 
 form > div:nth-child(1) > p {
     font-weight: 600;
@@ -184,17 +181,16 @@ input[type="checkbox"] + label {
     min-height: 86px;
 }
 
-
 .tarifa{
     cursor: pointer;
 }
-
 
 #smart-tv-text{
     font-size: 12px;
     color: var(--yellow);
     font-weight: 500;
 }
+
 
 /* ANIMATIONS */ 
 
@@ -206,7 +202,6 @@ input[type="checkbox"] + label {
     transform: scale(1.02);
 }
 
-
 #callnow-button{
     transition: all 0.3s ease-out;
 }
@@ -214,7 +209,6 @@ input[type="checkbox"] + label {
 #callnow-button:hover{
     transform: scale(1.02);
 }
-
 
 #iwantit-button{
     transition: all 0.3s ease-out;
